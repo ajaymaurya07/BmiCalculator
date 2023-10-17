@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circularImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_ajju"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: Ajay Kumar Maurya"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:padding="3dp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer: Android Developer"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:padding="3dp"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills:Kotlin, C++, Android SDK,SQLite,git,github,"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:padding="3dp"
+            />
+
+        <TextView
+            android:id="@+id/link_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to visit developer github"
+            android:autoLink="web"
+            android:clickable="true"
+            android:textColor="#03A9F4"
+            android:padding="3dp"
+            />
+        <TextView
+            android:id="@+id/link_linkdin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to visit developer linkdin"
+            android:autoLink="web"
+            android:clickable="true"
+            android:textColor="#03A9F4"
+            android:padding="3dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
